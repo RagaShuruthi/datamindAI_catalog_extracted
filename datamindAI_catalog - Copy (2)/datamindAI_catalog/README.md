@@ -1,5 +1,13 @@
 # DataMind AI
-> **AI-Powered Data Catalog and Intelligence Copilot**
+---
+title: Data-Mind-AI-Catalog
+emoji: 🤖
+colorFrom: blue
+colorTo: purple
+sdk: docker
+pinned: false
+---> 
+**AI-Powered Data Catalog and Intelligence Copilot**
 
 DataMind AI is an enterprise-ready metadata management platform that automatically crawls CSV, JSON, SQLite, and PostgreSQL sources to construct a searchable database catalog. It extracts schemas, computes statistical health profiles, maps table joins, generates business glossaries, and provides an interactive AI Copilot with local model failover, absolute PII data scrubbing, and SQL validation logic.
 
