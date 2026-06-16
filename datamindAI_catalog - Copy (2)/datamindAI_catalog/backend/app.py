@@ -25,6 +25,13 @@ from ai.llm_manager import generate_response
 load_dotenv()
 
 app = FastAPI(title="DataMind AI Backend", version="1.0.0")
+@app.get("/")
+def root():
+    return {
+        "status": "running",
+        "service": "DataMind AI Backend",
+        "docs": "/docs"
+    }
 
 # Enable CORS
 app.add_middleware(
