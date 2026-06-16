@@ -27,10 +27,10 @@ from ai.llm_manager import health_check, set_privacy_mode, get_privacy_mode
 load_dotenv()
 
 # API Configuration
-BACKEND_HOST = os.getenv("BACKEND_HOST", "127.0.0.1")
-BACKEND_PORT = os.getenv("BACKEND_PORT", "8000")
-BACKEND_URL = f"http://{BACKEND_HOST}:{BACKEND_PORT}"
-
+BACKEND_URL = os.getenv(
+    "BACKEND_URL",
+    "https://datamindai-catalog-extracted.onrender.com"
+)
 # Streamlit Page Setup
 st.set_page_config(
     page_title="DataMind AI - Data Catalog & Intelligence Copilot",
